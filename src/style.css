@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #e6e2fc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.oracle {
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  font-size: 1.5rem;
+}

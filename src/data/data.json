@@ -1,0 +1,3716 @@
+{
+  "trigrams": [
+    {
+      "number": 1,
+      "names": [
+        "Force",
+        "The Creative"
+      ],
+      "chineseName": "乾",
+      "pinyinName": "qián",
+      "character": "☰",
+      "attribute": "strong",
+      "images": [
+        "heaven"
+      ],
+      "chineseImage": "天",
+      "pinyinImage": "tiān",
+      "familyRelationship": "father",
+      "binary": "111",
+      "lines": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "names": [
+        "Field",
+        "The Receptive"
+      ],
+      "chineseName": "坤",
+      "pinyinName": "kūn",
+      "character": "☷",
+      "attribute": "devoted, yielding",
+      "images": [
+        "earth"
+      ],
+      "chineseImage": "地",
+      "pinyinImage": "dì",
+      "familyRelationship": "mother",
+      "binary": "000",
+      "lines": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 3,
+      "names": [
+        "Shake",
+        "The Arousing"
+      ],
+      "chineseName": "震",
+      "pinyinName": "zhèn",
+      "character": "☳",
+      "attribute": "inciting movement",
+      "images": [
+        "thunder"
+      ],
+      "chineseImage": "雷",
+      "pinyinImage": "léi",
+      "familyRelationship": "first son",
+      "binary": "001",
+      "lines": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 4,
+      "names": [
+        "Gorge",
+        "The Abysmal"
+      ],
+      "chineseName": "坎",
+      "pinyinName": "kǎn",
+      "character": "☵",
+      "attribute": "dangerous",
+      "images": [
+        "water"
+      ],
+      "chineseImage": "水",
+      "pinyinImage": "shuǐ",
+      "familyRelationship": "second son",
+      "binary": "010",
+      "lines": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 5,
+      "names": [
+        "Bound",
+        "Keeping Still"
+      ],
+      "chineseName": "艮",
+      "pinyinName": "gèn",
+      "character": "☶",
+      "attribute": "resting",
+      "images": [
+        "mountain"
+      ],
+      "chineseImage": "山",
+      "pinyinImage": "shān",
+      "familyRelationship": "third son",
+      "binary": "100",
+      "lines": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 6,
+      "names": [
+        "Ground",
+        "The Gentle"
+      ],
+      "chineseName": "巽",
+      "pinyinName": "xùn",
+      "character": "☴",
+      "attribute": "penetrating",
+      "images": [
+        "wind",
+        "wood"
+      ],
+      "chineseImage": "風",
+      "pinyinImage": "fēng",
+      "familyRelationship": "first daughter",
+      "binary": "110",
+      "lines": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 7,
+      "names": [
+        "Radiance",
+        "The Clinging"
+      ],
+      "chineseName": "離",
+      "pinyinName": "lí",
+      "character": "☲",
+      "attribute": "light-giving",
+      "images": [
+        "fire"
+      ],
+      "chineseImage": "火",
+      "pinyinImage": "huǒ",
+      "familyRelationship": "second daughter",
+      "binary": "101",
+      "lines": [
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 8,
+      "names": [
+        "Open",
+        "The Joyous"
+      ],
+      "chineseName": "兌",
+      "pinyinName": "duì",
+      "character": "☱",
+      "attribute": "joyful",
+      "images": [
+        "swamp",
+        "lake"
+      ],
+      "chineseImage": "澤",
+      "pinyinImage": "zé",
+      "familyRelationship": "third daughter",
+      "binary": "011",
+      "lines": [
+        1,
+        1,
+        0
+      ]
+    }
+  ],
+  "hexagrams": [
+    {
+      "number": 1,
+      "names": [
+        "Heaven",
+        "The Creative"
+      ],
+      "chineseName": "乾",
+      "pinyinName": "qián",
+      "character": "䷀",
+      "topTrigram": 1,
+      "bottomTrigram": 1,
+      "binary": "111111",
+      "tagLine": "The pure creative source of nature is flowing through you.",
+      "overview": "During this time, You intuitively understand the raw potential of your innate abilities. You may rely on your instict to guide your actions, persevering with the infinite strength of nature.\n\nIn order for your efforts to be effective on your journey, at first, remain quiet about your ideas, cultivating them internally before presenting them to the world. When you begin to demonstrate your abilities, remain humble, and work steadily. For ultimate success, keep your integrity strong and be resourceful, seeking out wise people for direction. During the day, remain diligent in your working. By night, take a careful approach so as not to become hyper-vigilant; you can trust yourself to make the right decisions.\n\nTrue success is dependent upon harmonious conduct with the environmental forces around you. When you remain aligned with your primal, subconscious self, your true abilities will make themselves manifest, as they will be informed by the natural creative forces of nature. By remaining true to your nature, the fruits of success will bare you a path that is most ideal, whether it be within the midst of popularity or solitude. Take great care as to not become arrogant, else achievements attained will be short lived.\n\nThis hexagram evokes images of thunder and rain. The infinite power of heaven which flows through you with the strength of a dragon.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "Hidden Dragon. Do not take action.",
+          "overview": "The time is not yet ripe to take present your abilities. Continue to nurture and preserve your energy internally."
+        },
+        "2": {
+          "type": "yang",
+          "title": "The dragon makes an appearance.",
+          "overview": "Display your talents openly, yet remain reserved and cautious. A humble attitude will allow for better reception."
+        },
+        "3": {
+          "type": "yang",
+          "title": "Diligent by day, careful by night. There may be danger.",
+          "overview": "Keep your integrity strong and remain vigilant in your practice. There are some who wish to take advantage of your weaknesses."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Taking the leap.",
+          "overview": "You have fully developed your abilities and are about to be transformed. Any direciton you choose will lead to success, whether for personal growth, or the benefit of others."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Dragon flying in the sky.",
+          "overview": "You are acting in accord with nature, balancing your energy into perfection. The fruits of success will follow great ways."
+        },
+        "6": {
+          "type": "yang",
+          "title": "Flying too high. A proud dragon carries regret.",
+          "overview": "You will become unbalanced if you indulge your success further than it will allow. True strength is in withdrawing at the opportune moment."
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 2,
+      "names": [
+        "Field",
+        "The Receptive"
+      ],
+      "chineseName": "坤",
+      "pinyinName": "kūn",
+      "character": "䷁",
+      "topTrigram": 2,
+      "bottomTrigram": 2,
+      "binary": "000000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 3,
+      "names": [
+        "Struggle",
+        "Sprouting",
+        "Difficulty at the Beginning"
+      ],
+      "chineseName": "屯",
+      "pinyinName": "zhūn",
+      "character": "䷂",
+      "topTrigram": 4,
+      "bottomTrigram": 3,
+      "binary": "100010",
+      "tagLine": "Rain and thunder arise—there will be development and creativity.",
+      "overview": "Like walking into a storm, there will be struggle progressing, but well-prepared and firm, the journey through the tempest can be managed, to advantage. Do not take things lightly—this is movement in peril. There is much irregularity and confusion, but where there is risk, there is often reward—whatever begins, develops, and whatever develops, will bear fruit. Carefully manage affairs, like an artisan weaving the warp of a loom. This is done by setting up a ruler who can understand and manage the course, without abandoning the Dao. Remember, promoting strength is the effect of not having it—yang energy is latent here. When primal energy appears, this is called \"living midnight.\" Do not be reckless and desirous, allowing the sure driver to hold the reigns, and the latent energy will reappear in time.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "When advancement is difficult, stick to correct paths, and a good coach.",
+          "overview": "The effective ruler sets up a good foundation, and nurtures primal energy. When people avoid extremes, staying the course by humbling themselves to balance, they are praised for following their noble character."
+        },
+        "2": {
+          "type": "yin",
+          "title": "Overburdened and mastered by the struggle, one is obliged to return.",
+          "overview": "Circumstances reject advancement and union, but by upholding virtue, the course will reset itself in time. Be adaptable, refine yourself, and wait. Seeking immediate solutions is unleashing newborn yang energy, to injury."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Follow the deer without a ranger, and find yourself in the midst of the thick forest.",
+          "overview": "Becoming lost is an extreme situation—a wiser person knows the hidden risks of dangerous pursuit, withdrawing from the chase before disaster. Do not be arbitrary. Do not rush."
+        },
+        "4": {
+          "type": "yin",
+          "title": "The chariot is turned back, almost to retreat, but the aim is still true.",
+          "overview": "Having nurtured flexibility, and properly orienting oneself, neither the Dao, nor the yang energy, is lost. Stay true at the threshold, by seeking solutions appropriate to the time."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Advancement may become expensive.",
+          "overview": "Stay firm and correct, and there can some good fortune, even if things go awry. Forestall great matters, for danger is still imminent. Wait for the proper time to escape the struggle. Nonstriving will be beneficial."
+        },
+        "6": {
+          "type": "yin",
+          "title": "The storm defeats you, and your horses weep tears of blood.",
+          "overview": "Continuing in this state is great suffering. Weak and helpless, without a whip, turned back by difficulty, it is most necessary to come to understand the medicine of the time. Do not experience struggle where there is none."
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 4,
+      "names": [
+        "Enveloping",
+        "Youthful Folly"
+      ],
+      "chineseName": "蒙",
+      "pinyinName": "méng",
+      "character": "䷃",
+      "topTrigram": 5,
+      "bottomTrigram": 4,
+      "binary": "100010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 5,
+      "names": [
+        "Attending",
+        "Waiting"
+      ],
+      "chineseName": "需",
+      "pinyinName": "xū",
+      "character": "䷄",
+      "topTrigram": 4,
+      "bottomTrigram": 1,
+      "binary": "010111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 6,
+      "names": [
+        "Dispute",
+        "Conflict",
+        "Arguing"
+      ],
+      "chineseName": "訟",
+      "pinyinName": "sòng",
+      "character": "䷅",
+      "topTrigram": 1,
+      "bottomTrigram": 4,
+      "binary": "010111",
+      "tagLine": "Truth is obstructed, but be cautious and moderate, rather than seeking a final solution.",
+      "overview": "Though you are sincere in your current dispute, truth is blocked, and the path of prosecution will be met with obstruction—if pushed to a finale, the ending will be evil. Be your greater person by moderation and cautiousness—good fortune will come of it. Great sages know they can control their temperament—others will react with poison if pushed, deviating from harmony in a power struggle. To change, be rid of scheming and impulsiveness—it is better to contend with yourself than with others, though to be alive to sometimes suffer the scheming of others. If there is someone wiser who can settle it for you, seek them out. Now is not the time to act; there is no sure footing.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "Do not persist, and things will turn out well with little criticism.",
+          "overview": "By not continuing the matter, being flexible and deferential, you will suffer the ill words of others in exchange for good fortune yourself."
+        },
+        "2": {
+          "type": "yang",
+          "title": "No pressing the issue, escape and return amongst places you are safe.",
+          "overview": "You may be unequal to this dispute, unprepared or hitting above your weight. If you retreat and conceal yourself, you will be make no further mistakes, rather than inviting calamity."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Hold to the virtues you've established,  and keep your integrity, not acting where others are affected.",
+          "overview": "Though dispute is perilous, you keep firm to the places you already know you have support. Wise friends that can clarify the issue will lead to good fortune, as others will be unable to claim merit against them."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Not pressing the dispute, letting fate, one may rest in virtue and integrity, to good fortune.",
+          "overview": "You are unequal to this dispute, so let it rest; return to study, change your desire to be contentious, and rest where things are firm and correct—being adamant with oneself is profitable."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Dispute well, and good will come of it.",
+          "overview": "You are holding the proper mean; balanced and correctly oriented. Pursuing your contention will be auspicious, if you hold to virtue."
+        },
+        "6": {
+          "type": "yang",
+          "title": "Even if you are rewarded, you will lose three times that amount if you do not move forward with respect.",
+          "overview": "Though you may win the dispute, it will not end in your respect—this is the outcome of victory without virtue, and allowing scheming and impulsiveness to win the day. Be cautious—if you will resort to being selfish and inconsiderate, it is better to not be contentious."
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 7,
+      "names": [
+        "Leading",
+        "The Army"
+      ],
+      "chineseName": "師",
+      "pinyinName": "shī",
+      "character": "䷆",
+      "topTrigram": 2,
+      "bottomTrigram": 4,
+      "binary": "000010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 8,
+      "names": [
+        "Grouping",
+        "Holding Together [Union]"
+      ],
+      "chineseName": "比",
+      "pinyinName": "bǐ",
+      "character": "䷇",
+      "topTrigram": 4,
+      "bottomTrigram": 2,
+      "binary": "010000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 9,
+      "names": [
+        "Small Accumulating",
+        "The Taming Power of the Small"
+      ],
+      "chineseName": "小畜",
+      "pinyinName": "xiǎo chù",
+      "character": "䷈",
+      "topTrigram": 6,
+      "bottomTrigram": 1,
+      "binary": "110111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 10,
+      "names": [
+        "Treading",
+        "Conduct"
+      ],
+      "chineseName": "履",
+      "pinyinName": "lǚ",
+      "character": "䷉",
+      "topTrigram": 1,
+      "bottomTrigram": 8,
+      "binary": "111011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 11,
+      "names": [
+        "Pervading",
+        "Peace"
+      ],
+      "chineseName": "泰",
+      "pinyinName": "tài",
+      "character": "䷊",
+      "topTrigram": 2,
+      "bottomTrigram": 1,
+      "binary": "000111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 12,
+      "names": [
+        "Obstruction",
+        "Standstill (Stagnation)"
+      ],
+      "chineseName": "否",
+      "pinyinName": "pǐ",
+      "character": "䷋",
+      "topTrigram": 1,
+      "bottomTrigram": 2,
+      "binary": "111000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 13,
+      "names": [
+        "Concording People",
+        "Fellowship with Men"
+      ],
+      "chineseName": "同人",
+      "pinyinName": "tóng rén",
+      "character": "䷌",
+      "topTrigram": 1,
+      "bottomTrigram": 7,
+      "binary": "111101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 14,
+      "names": [
+        "Great Possessing",
+        "Possession in Great Measure"
+      ],
+      "chineseName": "大有",
+      "pinyinName": "dà yǒu",
+      "character": "䷍",
+      "topTrigram": 7,
+      "bottomTrigram": 1,
+      "binary": "101111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 15,
+      "names": [
+        "Humbling",
+        "Modesty"
+      ],
+      "chineseName": "謙",
+      "pinyinName": "qiān",
+      "character": "䷎",
+      "topTrigram": 2,
+      "bottomTrigram": 5,
+      "binary": "000100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 16,
+      "names": [
+        "Providing-For",
+        "Enthusiasm"
+      ],
+      "chineseName": "豫",
+      "pinyinName": "yù",
+      "character": "䷏",
+      "topTrigram": 3,
+      "bottomTrigram": 2,
+      "binary": "001000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 17,
+      "names": [
+        "Following"
+      ],
+      "chineseName": "隨",
+      "pinyinName": "suí",
+      "character": "䷐",
+      "topTrigram": 8,
+      "bottomTrigram": 3,
+      "binary": "011001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 18,
+      "names": [
+        "Correcting",
+        "Work on What Has Been Spoiled [Decay]"
+      ],
+      "chineseName": "蠱",
+      "pinyinName": "gǔ",
+      "character": "䷑",
+      "topTrigram": 5,
+      "bottomTrigram": 6,
+      "binary": "100110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 19,
+      "names": [
+        "Nearing",
+        "Approach"
+      ],
+      "chineseName": "臨",
+      "pinyinName": "lín",
+      "character": "䷒",
+      "topTrigram": 2,
+      "bottomTrigram": 8,
+      "binary": "000011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 20,
+      "names": [
+        "Viewing",
+        "Contemplation (View)"
+      ],
+      "chineseName": "觀",
+      "pinyinName": "guān",
+      "character": "䷓",
+      "topTrigram": 6,
+      "bottomTrigram": 2,
+      "binary": "110000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 21,
+      "names": [
+        "Gnawing Bite",
+        "Biting Through"
+      ],
+      "chineseName": "噬嗑",
+      "pinyinName": "shì kè",
+      "character": "䷔",
+      "topTrigram": 7,
+      "bottomTrigram": 3,
+      "binary": "101001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 22,
+      "names": [
+        "Adorning",
+        "Grace"
+      ],
+      "chineseName": "賁",
+      "pinyinName": "bì",
+      "character": "䷕",
+      "topTrigram": 5,
+      "bottomTrigram": 7,
+      "binary": "100101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 23,
+      "names": [
+        "Stripping",
+        "Splitting Apart"
+      ],
+      "chineseName": "剝",
+      "pinyinName": "bō",
+      "character": "䷖",
+      "topTrigram": 5,
+      "bottomTrigram": 2,
+      "binary": "100000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 24,
+      "names": [
+        "Returning",
+        "Return (The Turning Point)"
+      ],
+      "chineseName": "復",
+      "pinyinName": "fù",
+      "character": "䷗",
+      "topTrigram": 2,
+      "bottomTrigram": 3,
+      "binary": "000001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 25,
+      "names": [
+        "Without Embroiling",
+        "Innocence (The Unexpected)"
+      ],
+      "chineseName": "無妄",
+      "pinyinName": "wú wàng",
+      "character": "䷘",
+      "topTrigram": 1,
+      "bottomTrigram": 3,
+      "binary": "111001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 26,
+      "names": [
+        "Great Accumulating",
+        "The Taming Power of the Great"
+      ],
+      "chineseName": "大畜",
+      "pinyinName": "dà chù",
+      "character": "䷙",
+      "topTrigram": 5,
+      "bottomTrigram": 1,
+      "binary": "100111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 27,
+      "names": [
+        "Swallowing",
+        "The Corners of the Mouth (Providing Nourishment)"
+      ],
+      "chineseName": "頤",
+      "pinyinName": "yí",
+      "character": "䷚",
+      "topTrigram": 5,
+      "bottomTrigram": 3,
+      "binary": "100001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 28,
+      "names": [
+        "Excess of Greatness",
+        "Great Exceeding",
+        "Preponderance of the Great"
+      ],
+      "chineseName": "大過",
+      "pinyinName": "dà guò",
+      "character": "䷛",
+      "topTrigram": 8,
+      "bottomTrigram": 6,
+      "binary": "011110",
+      "tagLine": "The house beam sags under the weight an excess of greatness—moving in any direction, there will be development.",
+      "overview": "Whatever ventured has the possibility of success, but the supporting beam of the house bends. It is best when weak lines are on the inside, with strong on the outside—hexagram 28 is the opposite. Without change, the whole structure could crumble under the pressure. The timing is extraordinary—use emptiness in fullness for the highest effect. Not knowing what is enough, and the house will fall.\nIndulgently pursuing the strong yang energy, seeking external desires and delights and self-satisfaction, the beam could fracture. The Sun is the center of the hexagram—see things as they are, looking to what's important to the situation, and do not force things.\nWith an excess of strong lines, here, weak lines must provide the support. With enough ying energy, proceed with flexibility, being easygoing and adaptable, and development will be unhindered. This is gentle penetration. Stand tall, solitary, without fear, if need be, retiring from the world without blame or regret, and you will be like the Great People. All conditions are temporary.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "The white rushes are set under things.",
+          "overview": "Feel your weakness, and react appropriately—like setting down a soft blanket before placing something fragile, use exceptional care and prudence to avoid error."
+        },
+        "2": {
+          "type": "yang",
+          "title": "The old willow grows new shoots.",
+          "overview": "Just as how it's soft water that makes old willows strong, conditions may seem unusual, but there is advantage and vitality here. In balancing strength with the ability to yield, firmness met with flexibility, all associations are extraordinary—the high and the low can work together to great success."
+        },
+        "3": {
+          "type": "yang",
+          "title": "The beam is weak—there will be evil.",
+          "overview": "Evil is connected to the weak foundation of the hexagram—these are the condition if one insists on charging forward heedlessly, avoiding the support of good people. Know when to withdraw before the house beam snaps."
+        },
+        "4": {
+          "type": "yang",
+          "title": "The beam is braced, bending back upwards to better fortune.",
+          "overview": "Finding good help is advantageous, but if you seek personal gain by exploiting the goodwill of others, you will be humiliated. The strong lines are firm, so follow with yielding—too small, too flexible, and the strength of the house will deteriorate."
+        },
+        "5": {
+          "type": "yang",
+          "title": "The decayed willow flowers.",
+          "overview": "When tired, there is no need for concern, or regret, though it is unlikely there will be advantage. When the tree is old, it's flowering may only hasten it's end; luxury and self-satisfaction injures the real with the false—when the belly is filled, empty the mind, and rest without blame. Apply inner strength with balance, and do not disparage those who have aided you."
+        },
+        "6": {
+          "type": "yin",
+          "title": "Wading the stream with incredible boldness.",
+          "overview": "Attempting to ford the current, until the waters cover the crown of your head, this is extraordinary energy. This will end in evil, but without blame for the effort. Act arbitrarily, in ignorance, and the destruction could be great. Go too far, and lose good fortune. Return to prudence if possible, but, by your own heart, there may be things more important than your own well-being."
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 29,
+      "names": [
+        "Gorge",
+        "The Abysmal (Water)"
+      ],
+      "chineseName": "坎",
+      "pinyinName": "kǎn",
+      "character": "䷜",
+      "topTrigram": 4,
+      "bottomTrigram": 4,
+      "binary": "010010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 30,
+      "names": [
+        "Radiance",
+        "The Clinging, Fire"
+      ],
+      "chineseName": "離",
+      "pinyinName": "lí",
+      "character": "䷝",
+      "topTrigram": 7,
+      "bottomTrigram": 7,
+      "binary": "101101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 31,
+      "names": [
+        "Conjoining",
+        "Influence (Wooing)"
+      ],
+      "chineseName": "咸",
+      "pinyinName": "xián",
+      "character": "䷞",
+      "topTrigram": 8,
+      "bottomTrigram": 5,
+      "binary": "011100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 32,
+      "names": [
+        "Persevering",
+        "Duration"
+      ],
+      "chineseName": "恆",
+      "pinyinName": "héng",
+      "character": "䷟",
+      "topTrigram": 3,
+      "bottomTrigram": 6,
+      "binary": "001110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 33,
+      "names": [
+        "Retiring",
+        "Retreat"
+      ],
+      "chineseName": "遯",
+      "pinyinName": "dùn",
+      "character": "䷠",
+      "topTrigram": 1,
+      "bottomTrigram": 5,
+      "binary": "111100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 34,
+      "names": [
+        "Great Invigorating",
+        "The Power of the Great"
+      ],
+      "chineseName": "大壯",
+      "pinyinName": "dà zhuàng",
+      "character": "䷡",
+      "topTrigram": 3,
+      "bottomTrigram": 1,
+      "binary": "001111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 35,
+      "names": [
+        "Prospering",
+        "Progress"
+      ],
+      "chineseName": "晉",
+      "pinyinName": "jìn",
+      "character": "䷢",
+      "topTrigram": 7,
+      "bottomTrigram": 2,
+      "binary": "101000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 36,
+      "names": [
+        "Darkening of the Light"
+      ],
+      "chineseName": "明夷",
+      "pinyinName": "míng yí",
+      "character": "䷣",
+      "topTrigram": 2,
+      "bottomTrigram": 7,
+      "binary": "000101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 37,
+      "names": [
+        "Dwelling People",
+        "The Family [The Clan]"
+      ],
+      "chineseName": "家人",
+      "pinyinName": "jiā rén",
+      "character": "䷤",
+      "topTrigram": 6,
+      "bottomTrigram": 7,
+      "binary": "110101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 38,
+      "names": [
+        "Polarizing",
+        "Opposition"
+      ],
+      "chineseName": "睽",
+      "pinyinName": "kuí",
+      "character": "䷥",
+      "topTrigram": 7,
+      "bottomTrigram": 8,
+      "binary": "101011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 39,
+      "names": [
+        "Limping",
+        "Obstruction"
+      ],
+      "chineseName": "蹇",
+      "pinyinName": "jiǎn",
+      "character": "䷦",
+      "topTrigram": 4,
+      "bottomTrigram": 5,
+      "binary": "010100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 40,
+      "names": [
+        "Taking-Apart",
+        "Deliverance"
+      ],
+      "chineseName": "解",
+      "pinyinName": "xiè",
+      "character": "䷧",
+      "topTrigram": 3,
+      "bottomTrigram": 4,
+      "binary": "001010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 41,
+      "names": [
+        "Diminishing",
+        "Decrease"
+      ],
+      "chineseName": "損",
+      "pinyinName": "sǔn",
+      "character": "䷨",
+      "topTrigram": 5,
+      "bottomTrigram": 8,
+      "binary": "100011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 42,
+      "names": [
+        "Augmenting",
+        "Increase"
+      ],
+      "chineseName": "益",
+      "pinyinName": "yì",
+      "character": "䷩",
+      "topTrigram": 6,
+      "bottomTrigram": 3,
+      "binary": "110001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 43,
+      "names": [
+        "Displacement",
+        "Break-through (Resoluteness)"
+      ],
+      "chineseName": "夬",
+      "pinyinName": "guài",
+      "character": "䷪",
+      "topTrigram": 8,
+      "bottomTrigram": 1,
+      "binary": "011111",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 44,
+      "names": [
+        "Coupling",
+        "Coming to Meet"
+      ],
+      "chineseName": "姤",
+      "pinyinName": "gòu",
+      "character": "䷫",
+      "topTrigram": 1,
+      "bottomTrigram": 6,
+      "binary": "111110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 45,
+      "names": [
+        "Clustering",
+        "Gathering Together [Massing]"
+      ],
+      "chineseName": "萃",
+      "pinyinName": "cuì",
+      "character": "䷬",
+      "topTrigram": 8,
+      "bottomTrigram": 2,
+      "binary": "011000",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 46,
+      "names": [
+        "Ascending",
+        "Pushing Upward"
+      ],
+      "chineseName": "升",
+      "pinyinName": "shēng",
+      "character": "䷭",
+      "topTrigram": 2,
+      "bottomTrigram": 6,
+      "binary": "000110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 47,
+      "names": [
+        "Constricted",
+        "Confining",
+        "Oppression (Exhaustion)"
+      ],
+      "chineseName": "困",
+      "pinyinName": "kùn",
+      "character": "䷮",
+      "topTrigram": 8,
+      "bottomTrigram": 4,
+      "binary": "010110",
+      "tagLine": "Reaching an impasse, there is exhaustion.",
+      "overview": "The earthly realm seeks the celestial, but heavenly energy has not passed through. Contentions will lead to extremes—do not be deterred by weariness. Do not let conduct be affected—preservere, with firmness and correctness, and there may yet be good of it. Do not exhaust the mind, and there is joy—random thoughts do not occur to Great People, so they are not influenced by circumstance. Instead, polish and refine. Gather yourself in difficulty, as you do in ease—joyful in trouble. The Way is perilous, so step firmly, and be prepared for risk—the superior person will sacrifice their life to their purpose. This is sincerity. This is blameless.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "Entering the dark valley, sitting on a tree stump, unseen for years.",
+          "overview": "Weakness here is self-destruction; follow the powerful yang lines to avoid resignation. Those who give up at the slightest difficulty, will never make it out of the valley."
+        },
+        "2": {
+          "type": "yang",
+          "title": "Stand up straight amongst the larder.",
+          "overview": "Sustenance is lacking. There will be hardship, but the Dao provides to those who stay true. There is success after adversity. Maintain sincerity, and there will be no blame."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Meeting with thorns, not seeing your partner, caught up on rocks.",
+          "overview": "A very inauspicious line. Acting arbitrarily, pretending to follow the Dao, only leads to exhaustion. Honour teachers, and respect companions—there's no real constriction here at all."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Moving cautiously, there will hardship, but with a good ending.",
+          "overview": "The aim is misplaced towards strengthening weak lines, but good can be unearthed. When things are difficult, try a little more. The lines suggest you have everything needed to move through this to re-established joy. It could be slow and painful, but you have the resources."
+        },
+        "5": {
+          "type": "yang",
+          "title": "In leisure and satisfaction, the nose and feet are cut off.",
+          "overview": "You are well aimed in the Dao, though your spiritual and earthly purpose is stifled. Make yourself small and humble, and continue doing the right thing, and it is only a matter of time before the Dao is fulfilled, and the impasse is overcome. Enter with sincerity."
+        },
+        "6": {
+          "type": "yin",
+          "title": "Vines and creepers hold you fast and straight.",
+          "overview": "You know if you move, you'll find reason to repent, because you're ignorant of causes and conditions. Do not pretend—pretending to be great is to suffer without the opportunity to withdraw. Seek out help and teachers, and only act after true understanding. Repentance will break the standstill, and you will join the Great Path."
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 48,
+      "names": [
+        "Welling",
+        "The Well"
+      ],
+      "chineseName": "井",
+      "pinyinName": "jǐng",
+      "character": "䷯",
+      "topTrigram": 4,
+      "bottomTrigram": 6,
+      "binary": "010110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 49,
+      "names": [
+        "Skinning",
+        "Revolution (Molting)"
+      ],
+      "chineseName": "革",
+      "pinyinName": "gé",
+      "character": "䷰",
+      "topTrigram": 8,
+      "bottomTrigram": 7,
+      "binary": "011101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 50,
+      "names": [
+        "Holding",
+        "The Caldron"
+      ],
+      "chineseName": "鼎",
+      "pinyinName": "dǐng",
+      "character": "䷱",
+      "topTrigram": 7,
+      "bottomTrigram": 6,
+      "binary": "101110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 51,
+      "names": [
+        "Shake",
+        "The Arousing (Shock, Thunder)"
+      ],
+      "chineseName": "震",
+      "pinyinName": "zhèn",
+      "character": "䷲",
+      "topTrigram": 3,
+      "bottomTrigram": 3,
+      "binary": "001001",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 52,
+      "names": [
+        "Bound",
+        "Keeping Still, Mountain"
+      ],
+      "chineseName": "艮",
+      "pinyinName": "gèn",
+      "character": "䷳",
+      "topTrigram": 5,
+      "bottomTrigram": 5,
+      "binary": "100100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 53,
+      "names": [
+        "Infiltrating",
+        "Development (Gradual Progress)"
+      ],
+      "chineseName": "漸",
+      "pinyinName": "jiàn",
+      "character": "䷴",
+      "topTrigram": 6,
+      "bottomTrigram": 5,
+      "binary": "110100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 54,
+      "names": [
+        "Marrying Off the Maiden",
+        "Converting the Maiden",
+        "The Marrying Maiden"
+      ],
+      "chineseName": "歸妹",
+      "pinyinName": "guī mèi",
+      "character": "䷵",
+      "topTrigram": 3,
+      "bottomTrigram": 8,
+      "binary": "110100",
+      "tagLine": "The young maiden is to be married, but without advantage.",
+      "overview": "The marriage is a forming of union between heaven and earth, but in seeking enjoyment, and obeying emotion, the real is sought in the false. When habits form, and incorrect action and desire are set, yin and yang go awry, and heaven and earth do not settle naturally without effort. The east is host, your essence—the west is guest, your feeling. The thunder, your previous merit, is in the east, but a lake, seeking punishment, will swallow it all, dissipating positive energy. Follow your merit. Evolve from maiden to mother. Keep in mind the far-distant end to ward off pleasure seeking that may result in bad beginnings. Essence is not found in emotion.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "The maiden will be secondary in the husband's eyes, but the lame will walk.",
+          "overview": "Though there be a lameness to the connection between heaven and earth, the maiden can take the second position, providing great help. Maintain integrity, and external objects can not impose their defilement. Practice in this way, and you will walk."
+        },
+        "2": {
+          "type": "yang",
+          "title": "With one eye, you can still see. Chastity will prevail.",
+          "overview": "Though there may be a blindness to the connection between heaven and earth, the solitary widow can achieve constancy. Be flexible in strength, and like the one-eyed who can see, you are outwardly dark, and inwardly bright. Consider essence as primary, be chaste and single-minded in the Dao, and in seclusion you will know true pleasure. Do not pursue what is not right."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Turning back to proper orientation, the maiden makes a great second.",
+          "overview": "Improprieties have led to the maiden being wedded off into less than ideal status, though she can be a proper secondary wife. In weakness, the orientation is off, and externals pierce your nose to draw you off like cattle. Turn from error."
+        },
+        "4": {
+          "type": "yang",
+          "title": "When it is the wrong time to marry, delay until conditions are right.",
+          "overview": "Though the time is late to be married, still the maiden may make a good wife. The Dao is focused stillness, yielding in strength—if the mind of Dao is set before action is required, then the outcomes can be fortuitous. Move from wrong to right, and await the proper time."
+        },
+        "5": {
+          "type": "yin",
+          "title": "The Emperor's younger sister marries—the timing is auspicious.",
+          "overview": "With noble character, even a scheming half-sister can not usurp the maiden's position. Settled, virtuous, and deferential to the wise and noble, those who foster the mind of Dao are able to shine. All the better if you can find wise aid. The moon is full of sunlight—here and now, good fortune is found."
+        },
+        "6": {
+          "type": "yin",
+          "title": "Sacrifice without blood, an empty chest—there is no benefit here.",
+          "overview": "With an empty basket, there will be no advantage to this union. Ignorantly fulfilling yin and yang through conditions, being indulgent, seeking to force immortality, is like being gifted an empty box—though you may appear fortunate, this behaviour will only lead you to failure."
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 55,
+      "names": [
+        "Abouding",
+        "Abundance [Fullness]"
+      ],
+      "chineseName": "豐",
+      "pinyinName": "fēng",
+      "character": "䷶",
+      "topTrigram": 3,
+      "bottomTrigram": 7,
+      "binary": "001101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 56,
+      "names": [
+        "Sojourning",
+        "The Wanderer"
+      ],
+      "chineseName": "旅",
+      "pinyinName": "lǚ",
+      "character": "䷷",
+      "topTrigram": 7,
+      "bottomTrigram": 5,
+      "binary": "101100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "number": 57,
+      "names": [
+        "Ground",
+        "The Gentle (The Penetrating, Wind)"
+      ],
+      "chineseName": "巽",
+      "pinyinName": "xùn",
+      "character": "䷸",
+      "topTrigram": 6,
+      "bottomTrigram": 6,
+      "binary": "110110",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        1,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 58,
+      "names": [
+        "Open",
+        "The Joyous, Lake"
+      ],
+      "chineseName": "兌",
+      "pinyinName": "duì",
+      "character": "䷹",
+      "topTrigram": 8,
+      "bottomTrigram": 8,
+      "binary": "011011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 59,
+      "names": [
+        "Dispersing",
+        "Dispersion [Dissolution]"
+      ],
+      "chineseName": "渙",
+      "pinyinName": "huàn",
+      "character": "䷺",
+      "topTrigram": 6,
+      "bottomTrigram": 4,
+      "binary": "110010",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 60,
+      "names": [
+        "Measured",
+        "Articulating",
+        "Limitation"
+      ],
+      "chineseName": "節",
+      "pinyinName": "jié",
+      "character": "䷻",
+      "topTrigram": 4,
+      "bottomTrigram": 8,
+      "binary": "110010",
+      "tagLine": "Development comes from measuring by the times rather than the patterns of mind—well-measured discipline leads to progress.",
+      "overview": "Yin and yang lines are balanced, with yang energy holding the central position—the strong pursues, supported by the weak, so limits are pushed, but not exceeded. Well-measured disciplines lead to progress and attainment. Too severe, and eventually they will need to be relaxed, before the joy of practice becomes toil. Awareness of life’s purpose brings pleasure, and there are naturally no restrictions. By proceeding from this firm and well-placed footing, action moves freely. Measure by proper standards, and there will be no injury. Let your calmness and adaptability bloom, without losing mindfulness, and falling into arbitrary ways, or restricting patterns, and you will find balance. This is going along with the times, rather than one’s own mind.",
+      "linesOverview": {
+        "1": {
+          "type": "yang",
+          "title": "Not leaving home without punishment.",
+          "overview": "Knowing right from wrong, then acting; this is movement without leaving home—understanding when the path is free, and when it is obstructed. Careful in the beginning, and there will be no error."
+        },
+        "2": {
+          "type": "yang",
+          "title": "Refusing to leave the home does not bode well.",
+          "overview": "Not moving beyond the boundaries, time and space to act is lost—refusal to act is without good. The weak leads the strong, so internal develops, without external being uplifted. Be effective by going outside yourself."
+        },
+        "3": {
+          "type": "yin",
+          "title": "You will lament not having followed suitable disciplines.",
+          "overview": "Craving for happiness, without working with discipline—pushing to attain externals, without establishing correct internal measures; these lead to self-inflicted wounds, with no one else to blame."
+        },
+        "4": {
+          "type": "yin",
+          "title": "Disciplines are quietly and naturally attended.",
+          "overview": "Deference to the proper source of authority leads to progress and success. Moving forward in peace, even those who are undisciplined can follow correct regulation, because they do not exert themselves by force."
+        },
+        "5": {
+          "type": "yang",
+          "title": "Disciplines are enacted with acceptance and contentment—there will be sweetness.",
+          "overview": "Inner mastery will lead to contentment, even in situations where suffering is great. Consistent measures and application, strong yet adaptable, will lead to good fortune, great progress, and positive affirmation. This is balance."
+        },
+        "6": {
+          "type": "yin",
+          "title": "The disciplines are too severe and difficult.",
+          "overview": "If the measure is over tuned, exhaustion and blame are the result. Fanatical adherence makes for strong but ineffective disciplines. Both the measures, and the negative outcomes, will eventually wear out. Do not be excessive."
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 61,
+      "names": [
+        "Center Returing",
+        "Inner Truth"
+      ],
+      "chineseName": "中孚",
+      "pinyinName": "zhōng fú",
+      "character": "䷼",
+      "topTrigram": 6,
+      "bottomTrigram": 8,
+      "binary": "110011",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        1,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "number": 62,
+      "names": [
+        "Small Exceeding",
+        "Preponderance of the Small"
+      ],
+      "chineseName": "小過",
+      "pinyinName": "xiǎo guò",
+      "character": "䷽",
+      "topTrigram": 3,
+      "bottomTrigram": 5,
+      "binary": "001100",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        0,
+        0,
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "number": 63,
+      "names": [
+        "Already Fording",
+        "After Completion"
+      ],
+      "chineseName": "既濟",
+      "pinyinName": "jì jì",
+      "character": "䷾",
+      "topTrigram": 4,
+      "bottomTrigram": 7,
+      "binary": "010101",
+      "tagLine": "",
+      "overview": "",
+      "linesOverview": {
+        "1": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "2": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "3": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "4": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "5": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        },
+        "6": {
+          "type": "",
+          "title": "",
+          "overview": ""
+        }
+      },
+      "lines": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "number": 64,
+      "names": [
+        "The River Not Yet Crossed",
+        "Not Yet Fording",
+        "Before Completion"
+      ],
+      "chineseName": "未濟",
+      "pinyinName": "wèi jì",
+      "character": "䷿",
+      "topTrigram": 7,
+      "bottomTrigram": 4,
+      "binary": "010101",
+      "tagLine": "The young fox has nearly crossed the stream.",
+      "overview": "Yin and Yang are unsettled, fire on top of water—the Yang energy is trapped. Though progress is underway, and success intimated, should you move forward without proper readiness, then advantage may be lost entirely, benefit drowned. The stream not yet crossed, there is still danger—be wary, and do not lose the fire under the waves. Clarify yourself, bide your time, and look to preventing danger. Students of the Way start by refining themselves.",
+      "linesOverview": {
+        "1": {
+          "type": "yin",
+          "title": "Moving too quickly, the fox tail gets soaked.",
+          "overview": "Looking to eat the fruit before it is ripe, while Yin and Yang energy is unsettled, having not taken the proper time to prepare yourself to the task, will end in humiliation. Don't let the fire be put out."
+        },
+        "2": {
+          "type": "yang",
+          "title": "Now is the time to drag the carriage wheels.",
+          "overview": "With firmness and stability in its center, the cart can carry you to good fortune. Remember that when biding time and nurturing strength in secret, the wise appear ignorant, and the expert, inept—at the appropriate time, they can appear reliably. Settle in the unsettled."
+        },
+        "3": {
+          "type": "yin",
+          "title": "Things not yet mended, the path forward is fraught with danger.",
+          "overview": "Though the potential advantages of crossing the stream are substantial, proper remedies have not been implemented, and evil paths multiply. Do not vainly imagine yourself settled for the task, relying on good luck and self-aggrandizement. Turn to friends in the Way who can help convert Yin and restore Yang. When unsettled, seek out a good teacher."
+        },
+        "4": {
+          "type": "yang",
+          "title": "Gather yourself up like an army invading a region of demons; get rid of mundane conditioning, cultivating inner refinement in private. If this takes three years, the rewards will be great, and primordial energy will be restored. It is difficult to be rid of the false, but when completion is settled, your aim and effect is precise."
+        },
+        "5": {
+          "type": "yin",
+          "title": "The brightness of the superior person manifests.",
+          "overview": "Ensuring stability, and steadfastness in correctness, the light of the superior person shines, leading away from blame, towards good fortune. The mundane mind is cleared out for the Dao, false brilliance leaves, and true illumination arises. Remain authentically settled, and water supports fire."
+        },
+        "6": {
+          "type": "yang",
+          "title": "Drinking their heady wine, the confident person is immersed again.",
+          "overview": "Settled brilliance achieved, the confident person now drinks deeply of themself and their good fortune without blame, until the stream overtakes and immerses them again. The overconfident do not know how to submit to proper rules, but if one's faith is not empty, because they have properly minded their affairs, then when instability arises, settlement is not lost again. Do not let the world overtake you by surprise."
+        }
+      },
+      "lines": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ]
+    }
+  ]
+}
