@@ -6,20 +6,10 @@ import Modal from 'react-modal'
 export default function Oracle() {
   const [coins, setCoins] = useState({1: 'yin', 2: 'yin', 3: 'yin'})
   const [hexagramLineList, setHexagramLineList] = useState([])
-  const [hexagramBinary, setHexagramBinary] = useState(null)
-  const [changingHexagramBinary, setChangingHexagramBinary] = useState(null)
-  const [hexagram, setHexagram] = useState(null)
-  const [changingHexagram, setChangingHexagram] = useState(null)
-  const [changingLines, setChangingLines] = useState(null)
 
   function handlePressReturn() {
     setCoins({1: 'yin', 2: 'yin', 3: 'yin'})
     setHexagramLineList([])
-    setHexagramBinary(null)
-    setChangingHexagramBinary(null)
-    setHexagram(null)
-    setChangingHexagram(null)
-    setChangingLines(null)
   }
 
   function getBinary() {
@@ -126,10 +116,10 @@ export default function Oracle() {
 
   function renderModalViews() {
     const hexagram =  getHexagramByBinary(getBinary(hexagramLineList))
-    const changingHexagram = getHexagramByBinary(getChangingBinary(hexagramLineList))
     const changingLines = getChangingLines()
     
-    if(hexagram && changingHexagram && changingLines) {
+    if(hexagram && changingLines.length !== 0) {
+      const changingHexagram = getHexagramByBinary(getChangingBinary(hexagramLineList))
       return(
         <>
           <div style={{fontSize: 20}}>{`${hexagram.names[0]}(${hexagram.number}) →	${changingHexagram.names[0]}(${changingHexagram.number})`}</div>
@@ -145,7 +135,7 @@ export default function Oracle() {
         </>
       )
     }
-    if(hexagram && !changingHexagram) {
+    if(hexagram) {
       return(
         <>
           <div style={{fontSize: 20, marginBottom: 10}}>{`${hexagram.names[0]}(${hexagram.number})`}</div>
