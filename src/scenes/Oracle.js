@@ -36,11 +36,9 @@ export default function Oracle() {
 
   function getChangingLines() {
     const lines = []
-    let count = 0
-    hexagramLineList.forEach(line => {
-      count = count + 1
-      if(line === 2) lines.push({index: count, type: 'yin'});
-      if(line === 3) lines.push({index: count, type: 'yang'})
+    hexagramLineList.forEach((line, index) => {
+      if(line === 2) lines.push({index, type: 'yin'});
+      if(line === 3) lines.push({index, type: 'yang'})
     })
     return lines
   }
