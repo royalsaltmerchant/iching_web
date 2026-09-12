@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6a861218.css",
+    "main.js": "./static/js/main.ba8388c6.js",
+    "static/media/chinese_coin02.png": "./static/media/chinese_coin02.c4b0dbeb49f126bf277f.png",
+    "static/media/chinese_coin01.png": "./static/media/chinese_coin01.e11c3d82be98dc6f9d0b.png",
+    "index.html": "./index.html",
+    "main.6a861218.css.map": "./static/css/main.6a861218.css.map",
+    "main.ba8388c6.js.map": "./static/js/main.ba8388c6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6a861218.css",
+    "static/js/main.ba8388c6.js"
+  ]
+}
