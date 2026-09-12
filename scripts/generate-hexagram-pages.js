@@ -2,6 +2,7 @@ const fs = require('fs/promises');
 const path = require('path');
 
 const data = require('../src/data/data.json');
+const wilhelmHexagrams = require('../src/data/hexagrams-wilhelm.json');
 
 const root = path.join(__dirname, '..');
 const publicDir = path.join(root, 'public');
@@ -37,24 +38,54 @@ function paragraphs(text) {
 }
 
 function lineReadings(hexagram) {
+  const reference = wilhelmHexagrams.find((reading) => reading.id === hexagram.number);
+
   return Object.entries(hexagram.linesOverview || {})
-    .filter(([, line]) => (line.title && line.title.trim()) || (line.overview && line.overview.trim()))
+    .filter(([index, line]) => (
+      (line.title && line.title.trim()) ||
+      (line.overview && line.overview.trim()) ||
+      (reference && reference.lines[Number(index) - 1])
+    ))
     .map(([index, line]) => `
       <article class="line-reading">
         <h3>Line ${index}${line.title ? `: ${escapeHtml(line.title)}` : ''}</h3>
-        ${line.overview ? `<p>${escapeHtml(line.overview)}</p>` : ''}
+        ${line.overview ? paragraphs(line.overview) : paragraphs(reference.lines[Number(index) - 1])}
+        ${reference && reference.linesCommentary[Number(index) - 1] ? `<details><summary>Commentary</summary>${paragraphs(reference.linesCommentary[Number(index) - 1])}</details>` : ''}
       </article>
     `)
     .join('\n');
+}
+
+function referenceReading(hexagram) {
+  const reference = wilhelmHexagrams.find((reading) => reading.id === hexagram.number);
+  if (!reference) return '';
+
+  return `
+        <article class="reference-block">
+          <h3>Judgment</h3>
+          ${paragraphs(reference.judgment)}
+          ${paragraphs(reference.judgmentCommentary)}
+        </article>
+        <article class="reference-block">
+          <h3>Image</h3>
+          ${paragraphs(reference.image)}
+          ${paragraphs(reference.imageCommentary)}
+        </article>
+        <article class="reference-block">
+          <h3>Commentary</h3>
+          ${paragraphs(reference.commentary)}
+        </article>
+  `;
 }
 
 function hexagramPage(hexagram) {
   const slug = slugify(hexagram);
   const canonicalUrl = `${canonicalBase}/hexagrams/${slug}.html`;
   const names = hexagram.names.join(' / ');
-  const description = `I Ching Hexagram ${hexagram.number}, ${names}: names, symbol, trigrams, online coin-toss reading context, and public-domain Legge translation link.`;
+  const description = `I Ching Hexagram ${hexagram.number}, ${names}: names, symbol, trigrams, local reading text, and online coin-toss reading context.`;
   const localOverview = paragraphs(hexagram.overview);
   const localLines = lineReadings(hexagram);
+  const reference = referenceReading(hexagram);
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -89,12 +120,13 @@ function hexagramPage(hexagram) {
       <section class="content">
         <h2>Reading</h2>
         ${hexagram.tagLine ? `<p class="tagline">${escapeHtml(hexagram.tagLine)}</p>` : ''}
-        ${localOverview || `<p>This hexagram page gives Oracle I Ching a dedicated reference URL for Hexagram ${hexagram.number}. For the complete public-domain text, read the Legge translation linked below.</p>`}
+        ${localOverview || reference || `<p>This hexagram page gives Oracle I Ching a dedicated reference URL for Hexagram ${hexagram.number}. For the complete public-domain text, read the Legge translation linked below.</p>`}
       </section>
+      ${localOverview && reference ? `<section class="content"><h2>Translation Reference</h2>${reference}</section>` : ''}
       ${localLines ? `<section class="content"><h2>Changing Lines</h2>${localLines}</section>` : ''}
       <section class="content links">
         <h2>Reference</h2>
-        <a href="${sacredTextUrl(hexagram)}" rel="noreferrer">Read Hexagram ${hexagram.number} in the public-domain Legge translation</a>
+        <a href="${sacredTextUrl(hexagram)}" rel="noreferrer">Compare Hexagram ${hexagram.number} with the public-domain Legge translation</a>
         <a href="../">Cast an online I Ching coin toss reading</a>
       </section>
     </main>
@@ -219,6 +251,24 @@ a {
 .content h2,
 .line-reading h3 {
   margin-top: 0;
+}
+
+.reference-block {
+  margin-bottom: 18px;
+}
+
+.reference-block h3 {
+  margin: 0 0 8px;
+}
+
+details {
+  margin-top: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .tagline {

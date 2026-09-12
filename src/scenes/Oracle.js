@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import images from '../images'
 import {getHexagramByBinary} from '../components/HexagramUtilities'
 import Modal from 'react-modal'
+import wilhelmHexagrams from '../data/hexagrams-wilhelm.json'
 
 export default function Oracle() {
   const [coins, setCoins] = useState({1: 'yin', 2: 'yin', 3: 'yin'})
@@ -68,13 +69,13 @@ export default function Oracle() {
     return hexagramLineList.map((line, index) => {
       switch(line) {
         case 0:
-          return <div key={index} style={{display: 'flex', flexDirection: 'row', marginVertical: 10}}><div style={{marginRight: 25, width: 75, height: 10, backgroundColor: 'black'}}/><div style={{marginLeft: 25, width: 75, height: 10, backgroundColor: 'black'}}/></div>
+          return <div key={index} className="hexagram-line hexagram-line-broken"><span /><span /></div>
         case 1:
-          return <div key={index} style={{marginVertical: 10, width: 200, height: 10, backgroundColor: 'black'}}/>
+          return <div key={index} className="hexagram-line hexagram-line-solid" />
         case 2:
-          return <div key={index} style={{marginVertical: 10, display: 'flex', flexDirection: 'row'}}><div style={{marginRight: 25, width: 75, height: 10, backgroundColor: 'red'}}/><div style={{marginLeft: 25, width: 75, height: 10, backgroundColor: 'red'}}/></div>
+          return <div key={index} className="hexagram-line hexagram-line-broken hexagram-line-changing"><span /><span /></div>
         case 3:
-          return <div key={index} style={{marginVertical: 10, width: 200, height: 10, backgroundColor: 'red'}}/>
+          return <div key={index} className="hexagram-line hexagram-line-solid hexagram-line-changing" />
         default:
           return null
       }
@@ -111,7 +112,7 @@ export default function Oracle() {
     const isReadingComplete = hexagramLineList.length === 6
     const coinImages = Object.values(coins).map((value, i) => (
       <div key={i}>
-        <img style={{height: '100px', width: '100px'}} src={value === 'yin' ? images.yin : images.yang} alt={`${value} I Ching coin`} />
+        <img src={value === 'yin' ? images.yin : images.yang} alt={`${value} I Ching coin`} />
       </div>
     ))
     return (
@@ -134,28 +135,71 @@ export default function Oracle() {
       .replace(/^-|-$/g, '')}.html`
   }
 
+  function getReferenceHexagram(hexagram) {
+    return wilhelmHexagrams.find(reading => reading.id === hexagram.number)
+  }
+
+  function renderParagraphs(text) {
+    if(!text || !text.trim()) return null
+
+    return text.split('\n\n').map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ))
+  }
+
   function renderOverview(hexagram) {
-    if(!hexagram.overview || !hexagram.overview.trim()) {
+    const reference = getReferenceHexagram(hexagram)
+
+    if(hexagram.overview && hexagram.overview.trim()) {
       return (
-        <p className="reading-empty">
-          This hexagram does not have a local interpretation yet. The public-domain Legge
-          reference page is linked below, along with public-domain translation notes.
-        </p>
+        <>
+          {renderParagraphs(hexagram.overview)}
+          {reference ? (
+            <details className="reference-details">
+              <summary>Translation reference</summary>
+              <div className="reference-block">
+                <h4>Judgment</h4>
+                {renderParagraphs(reference.judgment)}
+              </div>
+              <div className="reference-block">
+                <h4>Image</h4>
+                {renderParagraphs(reference.image)}
+              </div>
+            </details>
+          ) : null}
+        </>
       )
     }
 
-    return hexagram.overview.split('\n\n').map((paragraph, index) => (
-      <p key={index}>{paragraph}</p>
-    ))
+    if(!reference) return null
+
+    return (
+      <>
+        <div className="reference-block">
+          <h4>Judgment</h4>
+          {renderParagraphs(reference.judgment)}
+        </div>
+        <div className="reference-block">
+          <h4>Image</h4>
+          {renderParagraphs(reference.image)}
+        </div>
+        <div className="reference-block">
+          <h4>Commentary</h4>
+          {renderParagraphs(reference.commentary)}
+        </div>
+      </>
+    )
   }
 
   function renderChangingLineReadings(hexagram, changingLines) {
     const readableLines = changingLines
       .map(line => ({
         ...line,
-        reading: hexagram.linesOverview?.[line.index]
+        reading: hexagram.linesOverview?.[line.index],
+        referenceLine: getReferenceHexagram(hexagram)?.lines?.[line.index - 1],
+        referenceCommentary: getReferenceHexagram(hexagram)?.linesCommentary?.[line.index - 1]
       }))
-      .filter(line => line.reading?.title || line.reading?.overview)
+      .filter(line => line.reading?.title || line.reading?.overview || line.referenceLine)
 
     if(readableLines.length === 0) return null
 
@@ -164,8 +208,10 @@ export default function Oracle() {
         <h3>Changing Lines</h3>
         {readableLines.map(line => (
           <div className="changing-line-reading" key={line.index}>
-            <h4>Line {line.index}: {line.reading.title}</h4>
-            {line.reading.overview ? <p>{line.reading.overview}</p> : null}
+            <h4>Line {line.index}{line.reading?.title ? `: ${line.reading.title}` : ''}</h4>
+            {line.reading?.overview ? <p>{line.reading.overview}</p> : null}
+            {!line.reading?.overview && line.referenceLine ? renderParagraphs(line.referenceLine) : null}
+            {line.referenceCommentary ? <details><summary>Commentary</summary>{renderParagraphs(line.referenceCommentary)}</details> : null}
           </div>
         ))}
       </section>
@@ -237,20 +283,20 @@ export default function Oracle() {
       <header className="oracle-header">
         <h1>Oracle I Ching</h1>
         <p>
-          Throw three virtual coins six times for an online I Ching reading with hexagrams,
-          changing lines, and coin toss results.
+          Throw three coins six times for a hexagram reading.
         </p>
       </header>
       {renderCoinAnimation()}
-      <div style={{height: '300px', display: 'flex', flexDirection: 'column-reverse', justifyContent: 'space-evenly'}}>
+      <div className="hexagram-stack" aria-label="Cast hexagram lines">
         {renderHexagramLines()}
       </div>
-      <div>
+      <div className="oracle-actions">
         <button
           disabled={hexagramLineList.length === 6}
           onMouseUp={() => handleCoinPressAll()}>
-          <div>Throw Coins</div>
+          <div>{hexagramLineList.length === 0 ? 'Throw Coins' : `Throw Line ${hexagramLineList.length + 1}`}</div>
         </button>
+        <span>{hexagramLineList.length}/6</span>
       </div>
       <Modal
         isOpen={hexagramLineList.length === 6}

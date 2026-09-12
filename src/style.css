@@ -13,55 +13,127 @@ body, html {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 32px 16px 18px;
+  padding: 20px 16px 14px;
 }
 
 .oracle {
   flex: 1;
-  min-height: 620px;
+  min-height: 520px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 28px;
   text-align: center;
 }
 
 .oracle-header {
-  max-width: 640px;
+  max-width: 520px;
 }
 
 .oracle-header h1 {
-  margin: 0 0 8px;
-  font-size: clamp(2rem, 8vw, 4rem);
+  margin: 0 0 6px;
+  font-size: clamp(1.8rem, 6vw, 3rem);
   line-height: 1;
+  font-weight: 500;
 }
 
 .oracle-header p {
   margin: 0;
-  font-size: clamp(1rem, 3vw, 1.25rem);
+  color: #4a4368;
+  font-size: clamp(0.95rem, 2.4vw, 1.08rem);
   line-height: 1.45;
 }
 
 button {
-  font-size: 1.5rem;
+  font: inherit;
 }
 
 .coin-throw {
   display: flex;
-  gap: 0;
+  gap: 8px;
   padding: 0;
   border: 0;
   background: transparent;
   cursor: pointer;
+  transition: transform 160ms ease, opacity 160ms ease;
+}
+
+.coin-throw:hover:not(:disabled) {
+  transform: translateY(-2px);
+}
+
+.coin-throw img {
+  width: clamp(62px, 18vw, 82px);
+  height: clamp(62px, 18vw, 82px);
 }
 
 .coin-throw:disabled {
   cursor: default;
+  opacity: 0.72;
 }
 
 .coin-throw:focus-visible {
-  outline: 3px solid #4a2370;
-  outline-offset: 8px;
+  outline: 2px solid #4a2370;
+  outline-offset: 7px;
+}
+
+.hexagram-stack {
+  width: 160px;
+  height: 210px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  gap: 18px;
+}
+
+.hexagram-line {
+  height: 8px;
+  width: 160px;
+  background: #1b1630;
+}
+
+.hexagram-line-broken {
+  display: flex;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.hexagram-line-broken span {
+  width: 62px;
+  height: 8px;
+  background: #1b1630;
+}
+
+.hexagram-line-changing,
+.hexagram-line-changing span {
+  background: #8b2436;
+}
+
+.oracle-actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-height: 42px;
+}
+
+.oracle-actions button,
+.return-button {
+  border: 1px solid rgba(74, 35, 112, 0.38);
+  background: rgba(255, 255, 255, 0.3);
+  color: #1b1630;
+  padding: 9px 16px;
+  cursor: pointer;
+}
+
+.oracle-actions button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.oracle-actions span {
+  color: #4a4368;
+  font-size: 0.95rem;
 }
 
 .reading-modal {
@@ -124,6 +196,24 @@ button {
   margin: 0 0 12px;
 }
 
+.reference-block {
+  margin-bottom: 16px;
+}
+
+.reference-details {
+  margin-top: 14px;
+}
+
+.reference-details summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reference-block h4 {
+  margin: 0 0 6px;
+}
+
 .changing-line-reading {
   border-left: 3px solid #8c6aa8;
   padding-left: 12px;
@@ -132,6 +222,12 @@ button {
 
 .changing-line-reading h4 {
   margin: 0 0 6px;
+}
+
+.changing-line-reading summary {
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 8px;
 }
 
 .reading-link {

@@ -76,6 +76,24 @@ a {
   margin-top: 0;
 }
 
+.reference-block {
+  margin-bottom: 18px;
+}
+
+.reference-block h3 {
+  margin: 0 0 8px;
+}
+
+details {
+  margin-top: 10px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
 .tagline {
   font-weight: 700;
 }
