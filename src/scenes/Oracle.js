@@ -108,12 +108,23 @@ export default function Oracle() {
   }
 
   function renderCoinAnimation() {
+    const isReadingComplete = hexagramLineList.length === 6
     const coinImages = Object.values(coins).map((value, i) => (
       <div key={i}>
         <img style={{height: '100px', width: '100px'}} src={value === 'yin' ? images.yin : images.yang} alt={`${value} I Ching coin`} />
       </div>
     ))
-    return <div style={{display: 'flex'}}>{coinImages}</div>
+    return (
+      <button
+        className="coin-throw"
+        type="button"
+        disabled={isReadingComplete}
+        onClick={() => handleCoinPressAll()}
+        aria-label="Throw the I Ching coins"
+      >
+        {coinImages}
+      </button>
+    )
   }
 
   function getHexagramUrl(hexagram) {

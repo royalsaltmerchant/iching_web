@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "./static/css/main.bfcc5e96.css",
-    "main.js": "./static/js/main.62a97f5c.js",
+    "main.css": "./static/css/main.6864c918.css",
+    "main.js": "./static/js/main.93e8efe9.js",
     "static/media/chinese_coin02.png": "./static/media/chinese_coin02.c4b0dbeb49f126bf277f.png",
     "static/media/chinese_coin01.png": "./static/media/chinese_coin01.e11c3d82be98dc6f9d0b.png",
     "index.html": "./index.html",
-    "main.bfcc5e96.css.map": "./static/css/main.bfcc5e96.css.map",
-    "main.62a97f5c.js.map": "./static/js/main.62a97f5c.js.map"
+    "main.6864c918.css.map": "./static/css/main.6864c918.css.map",
+    "main.93e8efe9.js.map": "./static/js/main.93e8efe9.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfcc5e96.css",
-    "static/js/main.62a97f5c.js"
+    "static/css/main.6864c918.css",
+    "static/js/main.93e8efe9.js"
   ]
 }

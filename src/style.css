@@ -46,6 +46,24 @@ button {
   font-size: 1.5rem;
 }
 
+.coin-throw {
+  display: flex;
+  gap: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.coin-throw:disabled {
+  cursor: default;
+}
+
+.coin-throw:focus-visible {
+  outline: 3px solid #4a2370;
+  outline-offset: 8px;
+}
+
 .reading-modal {
   color: #1b1630;
   font-size: 1rem;
